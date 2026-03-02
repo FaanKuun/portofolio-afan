@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio RPL | Beranda</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-white">
+
+<nav class="fixed w-full z-[100] bg-white border-b border-slate-100 h-20">
+    <div class="max-w-6xl mx-auto px-6 h-full flex justify-between items-center">
+        <div class="font-black text-2xl tracking-tighter text-slate-900">
+            <span class="text-blue-600">Afan.</span>Portofolio
+        </div>
+
+        <div id="desktop-menu" class="hidden md:flex items-center space-x-10 text-sm font-bold uppercase tracking-widest text-slate-400">
+            <a href="index.html" class="nav-item hover:text-blue-600 transition-colors duration-300">Beranda</a>
+            <a href="perjalanan.html" class="nav-item hover:text-blue-600 transition-colors duration-300">Perjalanan</a>
+            <a href="visi-rpl.html" class="nav-item hover:text-blue-600 transition-colors duration-300">Visi RPL</a>
+            <a href="cv-digital.html" class="nav-item hover:text-blue-600 transition-colors duration-300">CV Digital</a>
+        </div>
+
+        <button id="menu-toggle" class="md:hidden flex flex-col justify-center items-center w-10 h-10 gap-1.5 z-[110] relative focus:outline-none">
+            <span class="line-1 w-7 h-0.5 bg-slate-900 transition-all duration-300"></span>
+            <span class="line-2 w-7 h-0.5 bg-slate-900 transition-all duration-300"></span>
+            <span class="line-3 w-7 h-0.5 bg-slate-900 transition-all duration-300"></span>
+        </button>
+    </div>
+
+    <div id="mobile-overlay" class="fixed inset-0 bg-white z-[105] flex flex-col items-center justify-center gap-10 opacity-0 pointer-events-none -translate-y-full transition-all duration-500 md:hidden">
+        <a href="index.html" class="nav-item text-2xl font-black text-slate-800">Beranda</a>
+        <a href="perjalanan.html" class="nav-item text-2xl font-black text-slate-800">Perjalanan</a>
+        <a href="visi-rpl.html" class="nav-item text-2xl font-black text-slate-800">Visi RPL</a>
+        <a href="cv-digital.html" class="nav-item text-2xl font-black text-slate-800">CV Digital</a>
+    </div>
+</nav>
+
+<header class="hero-bg pt-32 pb-24 px-6">
+    <div class="max-w-4xl mx-auto text-center reveal">
+        <div class="inline-flex items-center space-x-2 bg-white border border-slate-200 px-4 py-1.5 rounded-full mb-8 shadow-sm">
+            <span class="relative flex h-2 w-2">
+                <span class="animate-ping absolute h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+                <span class="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
+            </span>
+            <span class="text-[10px] font-bold text-slate-500 uppercase tracking-[0.2em]">Target: Magang Jepang 2026</span>
+        </div>
+
+        <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight mb-8 leading-tight text-slate-900">
+            Membangun Masa Depan di <span class="bg-gradient-to-r from-blue-600 to-indigo-500 bg-clip-text text-transparent uppercase">Negeri Sakura</span>
+        </h1>
+
+        <p class="text-lg md:text-xl text-slate-500 leading-relaxed mb-12 max-w-2xl mx-auto font-medium">
+            Lulusan SMK RPL yang berdedikasi mendokumentasikan proses belajar bahasa dan persiapan kerja di Jepang untuk mewujudkan impian akademik di S1 Sastra Jepang UNNES.
+        </p>
+
+        <div class="flex flex-col sm:flex-row justify-center gap-4">
+            <a href="perjalanan.html" class="btn-animate px-8 py-4 bg-[#0f172a] text-white rounded-2xl font-semibold shadow-xl shadow-slate-200 text-center">Lihat Progres Belajar</a>
+            <a href="cv-digital.html" class="btn-animate px-8 py-4 bg-white text-slate-900 border border-slate-200 rounded-2xl font-semibold text-center">Unduh CV Digital</a>
+        </div>
+    </div>
+</header>
+
+<section class="max-w-6xl mx-auto px-6 py-12 reveal">
+    <div class="bg-white/60 backdrop-blur-md border border-slate-100 rounded-[3rem] p-8 md:p-12 shadow-xl shadow-blue-500/5 flex flex-col md:flex-row items-center gap-12">
+        <div class="relative group shrink-0">
+            <div class="absolute -inset-1 bg-gradient-to-r from-blue-600 to-indigo-500 rounded-[2.5rem] blur opacity-25 group-hover:opacity-50 transition duration-1000"></div>
+            <div class="relative w-64 h-80 md:w-72 md:h-96 bg-slate-200 rounded-[2.5rem] overflow-hidden border-4 border-white shadow-inner">
+                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1887&auto=format&fit=crop" alt="Foto Muhamad Afan Afitro" class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500">
+            </div>
+            <div class="absolute -bottom-4 -right-4 bg-white p-4 rounded-2xl shadow-lg border border-slate-100 animate-bounce">
+                <span class="text-2xl">🇯🇵</span>
+            </div>
+        </div>
+
+        <div class="flex-1">
+            <div class="inline-block px-4 py-1 bg-blue-50 text-blue-600 rounded-full text-xs font-bold uppercase tracking-widest mb-6">Mengenal Saya</div>
+            <h2 class="text-3xl md:text-4xl font-extrabold text-slate-900 mb-6 leading-tight">Saya <span class="text-blue-600">Muhamad Afan Afitro</span> <br> Si Pengejar Mimpi di Negeri Sakura.</h2>
+            <p class="text-slate-500 leading-relaxed mb-8 text-lg">Halo! Saya Muhamad Afan Afitro, seorang Developer muda asal Cirebon yang lahir pada 21 Oktober 2006. Sebagai lulusan SMK Informatika Al-Irsyad Al-Islamiyyah, saya telah mengembangkan berbagai solusi digital mulai dari Platform E-Learning hingga sistem interaksi sosial berbasis web. Saat ini, saya sedang mengalihkan fokus saya untuk menguasai bahasa Jepang guna menempuh program magang 3 tahun, sebagai persiapan strategis untuk meraih gelar S1 Sastra Jepang di UNNES melalui jalur RPL.</p>
+            <div class="grid sm:grid-cols-2 gap-6">
+                <div class="p-5 bg-slate-50 rounded-2xl border border-slate-100">
+                    <h4 class="font-bold text-slate-800 mb-2 flex items-center gap-2"><span class="text-blue-600">🎯</span> Visi</h4>
+                    <p class="text-sm text-slate-500">Menjadi tenaga profesional yang menjembatani inovasi teknologi informasi dengan literasi budaya Jepang, serta menjadi pionir lulusan jalur RPL yang berkompetensi tinggi di Universitas Negeri Semarang.</p>
+                </div>
+                <div class="p-5 bg-slate-50 rounded-2xl border border-slate-100">
+                    <h4 class="font-bold text-slate-800 mb-2 flex items-center gap-2"><span class="text-indigo-600">🚀</span> Misi</h4>
+                    <p class="text-sm text-slate-500"><b>● Sertifikasi :</b> Meraih JLPT N2 untuk standar profesional.<br><br>
+
+                    <b>● Pengalaman : </b> Menyelesaikan magang 3 tahun dengan rekam jejak solid.<br><br>
+
+                    <b>● Akademik :</b> Melanjutkan S1 Sastra Jepang UNNES via jalur RPL.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="max-w-6xl mx-auto px-6 py-12 relative z-10">
+    <div class="grid md:grid-cols-3 gap-8">
+    <div class="group bg-white p-8 rounded-[3rem] border border-slate-100 shadow-xl shadow-slate-200/50 hover:-translate-y-3 transition-all duration-500 relative overflow-hidden">
+        <div class="absolute top-0 right-0 w-24 h-24 bg-blue-50 rounded-bl-[3rem] -z-0 transition-all group-hover:bg-blue-600"></div>
+        <div class="relative z-10">
+            <div class="w-14 h-14 bg-white shadow-lg rounded-2xl flex items-center justify-center text-2xl mb-6 group-hover:scale-110 transition-transform">🔤</div>
+            <h3 class="font-black text-xl text-slate-800 mb-4">Kemampuan Bahasa</h3>
+            <p class="text-slate-500 text-sm leading-relaxed mb-6">
+                Telah lulus ujian JFT-Basic A2 dengan skor <span class="text-blue-600 font-bold">210/250</span> Saat ini fokus memperkuat pondasi tata bahasa untuk persiapan kerja.
+            </p>
+            <div class="flex flex-wrap gap-2">
+                <span class="px-3 py-1 bg-purple-50 text-blue-600 text-[9px] font-black rounded-lg uppercase tracking-tighter">JFT-A2</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="group bg-white p-8 rounded-[3rem] border border-slate-100 shadow-xl shadow-slate-200/50 hover:-translate-y-3 transition-all duration-500 relative overflow-hidden">
+        <div class="absolute top-0 right-0 w-24 h-24 bg-orange-50 rounded-bl-[3rem] -z-0 transition-all group-hover:bg-orange-500"></div>
+        <div class="relative z-10">
+            <div class="w-14 h-14 bg-white shadow-lg rounded-2xl flex items-center justify-center text-2xl mb-6 group-hover:scale-110 transition-transform">💼</div>
+            <h3 class="font-black text-xl text-slate-800 mb-4">Target Magang</h3>
+            <p class="text-slate-500 text-sm leading-relaxed mb-6">
+                Sedang dalam proses persiapan <span class="text-orange-600 font-bold">interview (Mensetsu)</span> untuk program magang Jepang selama 3 tahun di bidang profesional.
+            </p>
+            <div class="flex flex-wrap gap-2">
+                <span class="px-3 py-1 bg-purple-50 text-orange-600 text-[9px] font-black rounded-lg uppercase tracking-tighter">Mensetsu</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="group bg-white p-8 rounded-[3rem] border border-slate-100 shadow-xl shadow-slate-200/50 hover:-translate-y-3 transition-all duration-500 relative overflow-hidden">
+        <div class="absolute top-0 right-0 w-24 h-24 bg-purple-50 rounded-bl-[3rem] -z-0 transition-all group-hover:bg-purple-600"></div>
+        <div class="relative z-10">
+            <div class="w-14 h-14 bg-white shadow-lg rounded-2xl flex items-center justify-center text-2xl mb-6 group-hover:scale-110 transition-transform">🎓</div>
+            <h3 class="font-black text-xl text-slate-800 mb-4">RPL UNNES</h3>
+            <p class="text-slate-500 text-sm leading-relaxed mb-6">
+                Mempersiapkan portofolio untuk konversi pengalaman kerja menjadi  <span class="text-purple-600 font-bold">SKS akademik</span> di S1 Sastra Jepang Universitas Negeri Semarang.
+            </p>
+            <div class="flex flex-wrap gap-2">
+                <span class="px-3 py-1 bg-purple-50 text-purple-600 text-[9px] font-black rounded-lg uppercase tracking-tighter">Academic Vision</span>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+
+
+<footer class="py-12 bg-slate-50 border-t border-slate-100">
+    <div class="max-w-6xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-6">
+        <p class="text-slate-400 text-sm font-medium">
+            &copy; 2026 <span class="text-slate-600 font-bold">Muhamad Afan Afitro.</span> Portofolio
+        </p>
+        <div class="flex space-x-6 text-slate-400 text-sm font-medium">
+            <a href="#" class="hover:text-blue-600 transition">Instagram</a>
+            <a href="#" class="hover:text-blue-600 transition">LinkedIn</a>
+            <a href="#" class="hover:text-blue-600 transition">GitHub</a>
+        </div>
+    </div>
+</footer>
+
+
+<script src="js/script.js"></script>
+
+
+</body>
+</html>
